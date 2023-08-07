@@ -5,8 +5,9 @@ Alarm Kurabildiğiniz bir site
 fixed an issue where no alarm sounded. [BagaturBey](https://github.com/BagaturBey)
 Alarm Sitesi klasörü dışında bulunan dosyaları güncelledim ve tekrar yükledim.
 
-* Güncellenen kodlar *
-document.addEventListener("DOMContentLoaded", function() {
+Güncellenen kodlar 
+
+    document.addEventListener("DOMContentLoaded", function() {
     const alarmSound = document.getElementById("alarmSound");
     const setAlarmBtn = document.getElementById("setAlarmBtn");
     const alarmTimeInput = document.getElementById("alarmTime");
@@ -29,6 +30,5 @@ document.addEventListener("DOMContentLoaded", function() {
             alert("Geçerli bir saat seçin.");
         }
     });
-});
 
 ![1](https://github.com/BagaturBey/Alarm-Sitesi/assets/107503923/5b39c489-653a-4585-9639-691b23f44bf2)
